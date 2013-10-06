@@ -79,7 +79,7 @@ module.exports = (grunt) ->
 	# Set up task aliases
 	grunt.registerTask "build", ["clean:tmp", "clean:build", "coffee:build", "uglify", "copy", "clean:tmp"]
 	grunt.registerTask "lint", ["coffeelint"]
-	grunt.registerTask "test", ["build", "clean:tests", "coffee:tests", "mocha:all"]
+	grunt.registerTask "test", ["build", "clean:tests", "coffee:tests", "mocha:all", "clean:tests"]
 
 	# Set default task to build
 	grunt.registerTask "default", ["build"]
