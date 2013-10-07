@@ -4,6 +4,10 @@
   "scripts": {
 	  "test": "grunt test"
   },
+  "repository": {
+	  "type": "git",
+	  "url": "git@github.com:jj56/dbspacey.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
