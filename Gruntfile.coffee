@@ -66,6 +66,13 @@ module.exports = (grunt) ->
 				src: ["tests/runner/index.html"]
 				options:
 					reporter: "Spec"
+					
+		connect:
+			server:
+				options:
+					port: 9001
+					base: "build"
+					keepalive: true
 			
 	# Import tasks from node_modules
 	grunt.loadNpmTasks "grunt-contrib-coffee"
@@ -73,6 +80,7 @@ module.exports = (grunt) ->
 	grunt.loadNpmTasks "grunt-contrib-clean"
 	grunt.loadNpmTasks "grunt-contrib-copy"
 	grunt.loadNpmTasks "grunt-contrib-watch"
+	grunt.loadNpmTasks "grunt-contrib-connect"
 	grunt.loadNpmTasks "grunt-coffeelint"
 	grunt.loadNpmTasks "grunt-mocha"
 
