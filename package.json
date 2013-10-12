@@ -1,12 +1,12 @@
 {
-  "name": "dbspacey",
+  "name": "CloudDirStat",
   "version": "0.0.1",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jj56/dbspacey.git"
+    "url": "git@github.com:jj56/CloudDirStat.git"
   },
   "dependencies": {},
   "devDependencies": {
